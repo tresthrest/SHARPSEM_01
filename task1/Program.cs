@@ -6,10 +6,9 @@
 // -7 -> 49
 
 Console.Write("Введите число: "); // Вывод в терминал приглашения пользователя ко вводу
-// int number = Convert.ToInt32(Console.ReadLine()); // Чтение целого числа из терминала
-int number = int.Parse(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine()); // Чтение целого числа из терминала
 // int number2 = int.Parse(Console.ReadLine()); // Второй способ конвертации
 
 int result = number * number;
-Console.Write("Квадрат введенного числа: ");
-Console.WriteLine(result);
+// Console.Write("Квадрат введенного числа: " + result + "программа работает");
+System.Console.WriteLine($"Квадрат введенного числа равен: {result} программа работает");
